@@ -1,0 +1,85 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ToDo.Api</name>
+    </assembly>
+    <members>
+        <member name="M:ToDo.Api.Controllers.AccountController.Login(ToDo.Infrastructure.Resources.UserLoginResource)">
+            <summary>
+            登录
+            </summary>
+            <param name="account">账号</param>
+            <param name="passWord">密码</param>
+            <returns></returns>
+        </member>
+        <member name="M:ToDo.Api.Controllers.AccountController.Post(ToDo.Infrastructure.Resources.UserAddResource)">
+            <summary>
+            注册
+            </summary>
+            <param name="user"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ToDo.Api.Controllers.MailController.Post(ToDo.Infrastructure.Mail.MailOptions)">
+            <summary>
+            发送邮件
+            </summary>
+            <param name="mails"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ToDo.Api.Controllers.TodoController.Get">
+            <summary>
+            获取列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ToDo.Api.Controllers.ToDoItemController.Post(System.String,ToDo.Infrastructure.Resources.ToDoItemAddResource)">
+            <summary>
+            新增项目
+            </summary>
+            <param name="listId"></param>
+            <param name="toDoItem"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ToDo.Api.Controllers.ToDoItemController.Done(System.String,System.String)">
+            <summary>
+            完成项目
+            </summary>
+            <param name="listId"></param>
+            <param name="itemId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ToDo.Api.Controllers.ToDoItemController.Get(System.String)">
+            <summary>
+            获取项目列表
+            </summary>
+            <param name="listId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ToDo.Api.Controllers.ToDoListController.Post(ToDo.Infrastructure.Resources.ToDoListAddResource)">
+            <summary>
+            新增
+            </summary>
+            <param name="toDoList"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ToDo.Api.Controllers.ToDoListController.Get">
+            <summary>
+            获取列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ToDo.Api.Controllers.ToDoShareController.Post(ToDo.Infrastructure.Resources.ToDoShareAddResource)">
+            <summary>
+            新增分享
+            </summary>
+            <param name="toDoShare"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ToDo.Api.Controllers.ToDoShareController.Get">
+            <summary>
+            获取分享列表
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
